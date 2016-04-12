@@ -1,0 +1,16 @@
+.settings .row:nth-child(2) span:nth-child(2), .app-settings .row:nth-child(1) span:nth-child(2), .app-settings .row:nth-child(2) span:nth-child(2), .access .row:nth-child(1) span:nth-child(2), .access .row:nth-child(2) span:nth-child(2) {
+    cursor: pointer; cursor: hand;
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+
+.settings .row:nth-child(2) span:nth-child(2).clean, .app-settings .row:nth-child(1) span:nth-child(2).clean, .app-settings .row:nth-child(2) span:nth-child(2).clean, .access .row:nth-child(1) span:nth-child(2).clean, .access .row:nth-child(2) span:nth-child(2).clean {
+    -webkit-filter: none;
+    -moz-filter: none;
+    -o-filter: none;
+    -ms-filter: none;
+    filter: none;
+}

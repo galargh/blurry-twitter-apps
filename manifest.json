@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Blurry Twitter Apps",
+  "description": "This extension blurs out the sensitive data inside Twitter Apps.",
+  "version": "1.0",
+  "content_scripts": [
+      {
+          "matches": ["https://apps.twitter.com/*"],
+          "css": ["styles/blur.css"],
+          "js": ["scripts/jquery-1.12.3.min.js", "scripts/blur.js"]
+      }
+  ],
+  "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+  }
+}
